@@ -1,6 +1,11 @@
 ---
 name: whisper-transcription
 description: "Transcribe audio and video files to text using OpenAI Whisper. Use when: converting podcasts to blog posts; creating video subtitles; extracting quotes from interviews; repurposing video content to text; building searchable audio archives"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Whisper Transcription

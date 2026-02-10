@@ -1,6 +1,11 @@
 ---
 name: aarrr-metrics
 description: Measure and optimize growth using the AARRR (Pirate Metrics) framework with stage-specific KPIs and funnel analysis
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # AARRR Pirate Metrics

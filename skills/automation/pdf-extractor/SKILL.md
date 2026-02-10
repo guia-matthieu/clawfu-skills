@@ -1,6 +1,11 @@
 ---
 name: pdf-extractor
 description: "Extract text, tables, and images from PDFs. Use when: extracting data from reports; converting PDF tables to CSV; pulling images from presentations; processing research papers; batch converting PDFs to text"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # PDF Extractor

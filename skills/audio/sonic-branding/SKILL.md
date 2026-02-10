@@ -1,6 +1,11 @@
 ---
 name: sonic-branding
 description: "Build a complete audio identity for your brand using the 7-step methodology—from brand assessment through deployment—creating memorable sonic assets that drive recognition and trust. Use when: Creating audio branding for a new company; Refreshing outdated brand sounds; Developing audio guidelines for consistent usage; Planning sonic identity across touchpoints; Briefing agencies on audio branding projects"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Sonic Branding Strategy

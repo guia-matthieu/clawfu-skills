@@ -1,6 +1,11 @@
 ---
 name: competitive-moats
 description: "Build durable competitive advantage using Hamilton Helmer's \"7 Powers\" framework—the complete, mutually exclusive enumeration of all possible sources of sustainable business moats. Use when: **Evaluate your competitive position** and identify if you have true Power; **Choose strategic direction** for building durable advantage; **Analyze competitors** to understand their moats and vulnerabilities; **Advise on M&A** whether an acquisition target has defensible value; **Assess startup investmen..."
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Competitive Moats

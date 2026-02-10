@@ -1,6 +1,11 @@
 ---
 name: schema-markup
 description: "Generate JSON-LD structured data for SEO. Use when: adding schema markup to pages; creating organization schema; generating product schema; validating existing schema; rich snippet optimization"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Schema Markup Generator

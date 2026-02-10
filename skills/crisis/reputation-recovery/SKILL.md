@@ -1,6 +1,11 @@
 ---
 name: reputation-recovery
 description: Rebuild brand reputation after a crisis through strategic communication, trust-building actions, and sentiment recovery tracking
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Reputation Recovery

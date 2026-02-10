@@ -1,6 +1,11 @@
 ---
 name: shape-up
 description: "Escape the build trap and endless backlogs. Use Basecamp's methodology to ship meaningful work in 6-week cycles with fixed time, variable scope. Use when: **Product planning** to replace endless backlogs; **Feature development** with clear time boundaries; **Team autonomy** when you want self-directed teams; **Scope management** when projects tend to balloon; **Startup development** with limited resources"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Shape Up

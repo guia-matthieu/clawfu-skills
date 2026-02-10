@@ -1,6 +1,11 @@
 ---
 name: one-on-ones
 description: "Transform the most important meeting on your calendar. Master the art of 1:1s that build trust, develop people, and surface problems before they become crises. Use when: **New manager** learning to run effective 1:1s; **Improving existing 1:1s** that feel unproductive; **Building relationships** with new direct reports; **Developing talent** through coaching conversations; **Addressing performance issues** early"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # One-on-Ones

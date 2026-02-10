@@ -1,6 +1,11 @@
 ---
 name: cohort-analysis
 description: "Analyze user retention by cohort. Use when: measuring customer retention; understanding lifecycle patterns; comparing acquisition cohorts; tracking engagement over time; identifying churn risks"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Cohort Analysis

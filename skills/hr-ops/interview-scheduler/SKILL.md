@@ -1,6 +1,11 @@
 ---
 name: interview-scheduler
 description: Design and coordinate efficient interview processes with optimal panel composition, scheduling logistics, and candidate experience
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Interview Scheduler

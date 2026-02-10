@@ -1,6 +1,11 @@
 ---
 name: video-processing
 description: "Process video files with ffmpeg automation. Use when: compressing videos for upload; extracting audio from video; resizing for social formats; clipping segments; merging multiple videos; generating thumbnails"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Video Processing

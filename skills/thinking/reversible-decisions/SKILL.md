@@ -1,6 +1,11 @@
 ---
 name: reversible-decisions
 description: "Know when to move fast and when to move carefully. Master Jeff Bezos' framework for distinguishing high-stakes irreversible decisions from low-stakes reversible ones. Use when: **Prioritizing decisions** to know where to invest time; **Team empowerment** to understand what to delegate vs. escalate; **Avoiding analysis paralysis** on decisions that don't matter; **Risk management** to identify where caution is truly warranted; **Speed vs. thoroughness** trade-offs in any context"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Reversible Decisions (Type 1 vs. Type 2)

@@ -1,6 +1,11 @@
 ---
 name: lean-canvas
 description: "Document your business model on one page and systematically de-risk it. Master Ash Maurya's adaptation of Business Model Canvas optimized for startups and uncertainty. Use when: **Starting a new venture** to articulate and test your business model; **Preparing for customer discovery** to document hypotheses to validate; **Pivoting decisions** to compare alternative business models; **Investor conversations** to communicate your model concisely; **Team alignment** to get everyone on the same page"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Lean Canvas

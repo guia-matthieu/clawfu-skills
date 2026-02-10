@@ -1,6 +1,11 @@
 ---
 name: regret-minimization
 description: "Make decisions that your 80-year-old self will thank you for. Master Jeff Bezos' mental model for bold choices that minimize long-term regret. Use when: **Career decisions** with long-term implications; **Startup vs. safe job** choices; **Major life pivots** (relocations, relationships, changes); **Risk-taking decisions** where fear is a factor; **Opportunity evaluation** when considering bold moves"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Regret Minimization Framework

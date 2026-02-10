@@ -1,6 +1,11 @@
 ---
 name: podcast-seo
 description: "Optimize podcast content for search engines using transcripts, structured show notes, and strategic keyword targeting to drive organic discovery. Use when: Launching a new podcast and planning for discoverability; Adding transcripts to existing episodes for SEO benefit; Optimizing show notes for search traffic; Building topical authority through podcast content; Increasing organic traffic to podcast landing pages"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Podcast SEO

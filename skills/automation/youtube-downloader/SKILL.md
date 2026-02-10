@@ -1,6 +1,11 @@
 ---
 name: youtube-downloader
 description: "Download and process YouTube content for research. Use when: downloading competitor videos for analysis; extracting audio for podcasts; getting transcripts for content repurposing; archiving webinars; research content curation"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # YouTube Downloader

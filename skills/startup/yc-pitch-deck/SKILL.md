@@ -1,6 +1,11 @@
 ---
 name: yc-pitch-deck
 description: "Create a compelling startup pitch deck that follows the structure proven to raise billions from top investors. Master the YC and Sequoia formats that get founders funded. Use when: **Fundraising** to create investor pitch decks; **YC application** to structure your narrative; **Demo Day prep** to craft your 2-minute pitch; **Angel investors** to communicate your opportunity; **Partnership pitches** to structure compelling asks"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # YC Pitch Deck

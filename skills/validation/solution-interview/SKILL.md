@@ -1,6 +1,11 @@
 ---
 name: solution-interview
 description: "Test if your solution actually solves the validated problem before building the full product. Master the art of showing concepts and prototypes to get honest feedback on solution fit. Use when: **After problem interviews** to test if your solution addresses validated problems; **Before building MVP** to validate core value proposition; **Prototype testing** to get feedback on concepts and mockups; **Feature validation** to test if new features solve real problems; **Pivoting** to test alterna..."
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Solution Interview

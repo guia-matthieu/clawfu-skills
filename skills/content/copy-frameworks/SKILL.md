@@ -1,6 +1,11 @@
 ---
 name: copy-frameworks
 description: "Master the essential copywriting frameworks used by top marketers. AIDA, PAS, PASTOR, BAB, FAB, and 4Ps—the building blocks of persuasive copy. Use when: Writing sales copy and need a proven structure; Structuring landing pages, emails, or ads; Overcoming writer's block by following a formula; Teaching copywriting fundamentals to your team; Reviewing copy to identify structural weaknesses"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Copy Frameworks

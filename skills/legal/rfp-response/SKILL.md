@@ -1,6 +1,11 @@
 ---
 name: rfp-response
 description: Create winning RFP/RFI responses by analyzing requirements, structuring compliant proposals, and crafting compelling win themes
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # RFP Response

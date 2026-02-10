@@ -1,6 +1,11 @@
 ---
 name: google-ads-expert
 description: "Build profitable Google Ads campaigns by applying Perry Marshall's 80/20 principles to paid search optimization Use when: **Setting up a new Google Ads account** from scratch; **Optimizing existing campaigns** that are underperforming; **Structuring campaigns** for maximum quality score and ROI; **Applying 80/20 thinking** to identify high-leverage optimizations; **Scaling profitable campaigns** without wasting budget"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Google Ads Expert - Master Paid Search with 80/20 Thinking

@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500&display=swap");
+
+body {
+  margin: 0;
+  background-color: #1a1a1a;
+  color: rgba(255, 255, 255, 0.867);
+  position: relative;
+  overflow: hidden;
+  font-family: "Inter", sans-serif;
+}
+
+.card {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 6px 6px 10px 2px rgba(0, 0, 0, 0.6);
+}
+
+#btn {
+  position: absolute;
+  top: 690px;
+  left: 16px;
+  z-index: 99;
+}
+
+.card-content {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: rgba(255, 255, 255, 0.867);
+  padding-left: 16px;
+}
+
+.content-place {
+  margin-top: 6px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.content-title-1,
+.content-title-2 {
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+}
+
+.content-start {
+  width: 30px;
+  height: 5px;
+  border-radius: 99px;
+  background-color: rgba(255, 255, 255, 0.867);
+}
+
+.details {
+  z-index: 22;
+  position: absolute;
+  top: 240px;
+  left: 60px;
+}
+
+.details .place-box {
+  height: 46px;
+  overflow: hidden;
+}
+
+.details .place-box .text {
+  padding-top: 16px;
+  font-size: 20px;
+}
+
+.details .place-box .text:before {
+  top: 0;
+  left: 0;
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 4px;
+  border-radius: 99px;
+  background-color: white;
+}
+
+.details .title-1,
+.details .title-2 {
+  font-weight: 600;
+  font-size: 72px;
+  font-family: "Oswald", sans-serif;
+}
+
+.details .title-box-1,
+.details .title-box-2 {
+  margin-top: 2px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.details > .desc {
+  margin-top: 16px;
+  width: 500px;
+}
+
+.details > .cta {
+  width: 500px;
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.details > .cta > .bookmark {
+  border: none;
+  background-color: #ecad29;
+  width: 36px;
+  height: 36px;
+  border-radius: 99px;
+  color: white;
+  display: grid;
+  place-items: center;
+}
+
+.details > .cta > .bookmark svg {
+  width: 20px;
+  height: 20px;
+}
+
+.details > .cta > .discover {
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  height: 36px;
+  border-radius: 99px;
+  color: #ffffff;
+  padding: 4px 24px;
+  font-size: 12px;
+  margin-left: 16px;
+  text-transform: uppercase;
+}
+
+nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 36px;
+  font-weight: 500;
+}
+
+nav svg {
+  width: 20px;
+  height: 20px;
+}
+
+nav .svg-container {
+  width: 20px;
+  height: 20px;
+}
+
+nav > div {
+  display: inline-flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav > div:first-child {
+  gap: 10px;
+}
+
+nav > div:last-child {
+  gap: 24px;
+}
+
+nav > div:last-child > .active {
+  position: relative;
+}
+
+nav > div:last-child > .active:after {
+  bottom: -8px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  content: "";
+  height: 3px;
+  border-radius: 99px;
+  background-color: #ecad29;
+}
+
+.indicator {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 5px;
+  z-index: 60;
+  background-color: #ecad29;
+}
+
+.pagination {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: inline-flex;
+}
+
+.pagination > .arrow {
+  z-index: 60;
+  width: 50px;
+  height: 50px;
+  border-radius: 999px;
+  border: 2px solid rgba(255, 255, 255, 0.333);
+  display: grid;
+  place-items: center;
+}
+
+.pagination > .arrow:nth-child(2) {
+  margin-left: 20px;
+}
+
+.pagination > .arrow svg {
+  width: 24px;
+  height: 24px;
+  stroke-width: 2;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.pagination .progress-sub-container {
+  margin-left: 24px;
+  z-index: 60;
+  width: 500px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.pagination .progress-sub-container .progress-sub-background {
+  width: 500px;
+  height: 3px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.pagination .progress-sub-container .progress-sub-background .progress-sub-foreground {
+  height: 3px;
+  background-color: #ecad29;
+}
+
+.pagination .slide-numbers {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  z-index: 60;
+  position: relative;
+}
+
+.pagination .slide-numbers .item {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  color: white;
+  top: 0;
+  left: 0;
+  display: grid;
+  place-items: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.cover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  z-index: 100;
+}

@@ -1,6 +1,11 @@
 ---
 name: lighthouse-audit
 description: "Run automated Lighthouse audits for Core Web Vitals and SEO. Use when: checking page performance; auditing SEO technical issues; monitoring Core Web Vitals; comparing before/after optimization; batch auditing multiple URLs"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Lighthouse Audit

@@ -1,6 +1,11 @@
 ---
 name: hashtag-analyzer
 description: "Analyze hashtag performance and discover trending tags. Use when: researching hashtags for posts; finding related hashtags; analyzing hashtag reach; planning hashtag strategy; competitor hashtag research"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Hashtag Analyzer

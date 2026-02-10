@@ -1,6 +1,11 @@
 ---
 name: sandler-system
 description: Apply Sandler Selling System principles for consultative sales with pain discovery, budget qualification, and mutual decision frameworks
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Sandler Selling System

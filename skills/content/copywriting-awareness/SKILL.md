@@ -1,6 +1,11 @@
 ---
-name: copywriting-schwartz
+name: copywriting-awareness
 description: "Master Eugene Schwartz's 5 Stages of Awareness framework from \"Breakthrough Advertising\" (1966) to write copy that meets prospects where they are. Use when: Writing copy and unsure how \"aware\" your audience is; Creating multi-stage funnels with different messaging per stage; Building email sequences that nurture from cold to ready-to-buy; Optimizing ads for different audience temperatures; Diagnosing why existing copy isn't converting"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Schwartz Awareness Levels Copywriting

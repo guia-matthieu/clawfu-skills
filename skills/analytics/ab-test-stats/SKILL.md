@@ -1,6 +1,11 @@
 ---
 name: ab-test-stats
 description: "Calculate A/B test statistical significance. Use when: determining if test results are significant; calculating required sample size; estimating test duration; analyzing conversion experiments; making data-driven decisions"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # A/B Test Statistics Calculator

@@ -1,6 +1,11 @@
 ---
 name: mom-test
 description: "Extract honest customer insights by asking questions about their life instead of your idea. Master Rob Fitzpatrick's methodology for conversations that can't lie to you. Use when: **Before building anything** to validate if the problem is real and painful; **Customer discovery calls** to get honest feedback without leading questions; **Pivoting decisions** to understand if you should change direction; **Feature prioritization** to learn what customers actually need vs. say they want; **Pricin..."
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # The Mom Test

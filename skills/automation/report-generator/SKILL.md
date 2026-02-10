@@ -1,6 +1,11 @@
 ---
 name: report-generator
 description: "Generate PDF/HTML reports from templates and data. Use when: creating client reports; generating weekly summaries; producing marketing performance reports; automating recurring reports"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Report Generator

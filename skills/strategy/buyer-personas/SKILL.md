@@ -1,6 +1,11 @@
 ---
 name: buyer-personas
 description: "Create actionable buyer personas using Adele Revella's 5 Rings of Buying Insight methodology—based on real buyer stories, not demographics. Use when: **Understand why buyers buy** (or don't buy) your solution; **Create personas that drive action** rather than gather dust; **Align marketing and sales** around real buyer insights; **Develop messaging** that resonates with actual decision-makers; **Map content** to the buyer's journey"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Buyer Personas

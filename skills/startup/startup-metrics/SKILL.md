@@ -1,6 +1,11 @@
 ---
 name: startup-metrics
 description: "Know the metrics that matter at each stage and what investors actually look for. Master the A16Z and YC frameworks for measuring startup progress. Use when: **Fundraising prep** to know which metrics to highlight; **Board meetings** to report on the right KPIs; **Strategic planning** to set goals that matter; **Product decisions** to understand what to optimize; **Diagnosing problems** to find what's broken"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Startup Metrics

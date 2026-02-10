@@ -1,6 +1,11 @@
 ---
 name: dns-zonefile-config
 description: "Configurez correctement vos zones DNS pour l'email deliverability (SPF, DKIM, DMARC), la sécurité (DNSSEC, CAA), et l'automatisation (OVH API, Cloudflare, Terraform), basé sur les best practices 2024-2025. Use when: **Configurer l'authentification email** - SPF, DKIM, DMARC pour éviter le spam folder; **Sécuriser un domaine** - DNSSEC, CAA records, protection contre le spoofing; **Automatiser la gestion DNS** - OVH API, Cloudflare API, Terraform; **Débugger des problèmes DNS** - dig, nslookup..."
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # DNS Zonefile Configuration

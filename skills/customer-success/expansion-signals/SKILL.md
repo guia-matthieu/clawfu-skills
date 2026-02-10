@@ -1,6 +1,11 @@
 ---
 name: expansion-signals
 description: Identify upsell and cross-sell opportunities through usage patterns, growth signals, and account behavior analysis
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Expansion Signals

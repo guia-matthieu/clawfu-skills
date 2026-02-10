@@ -1,6 +1,11 @@
 ---
 name: voice-design
 description: "Select and create the perfect AI voice for your content using ElevenLabs, Qwen3-TTS, and other platforms—matching voice characteristics to brand personality and audience. Use when: Choosing an AI voice for video narration; Creating a consistent brand voice across content; Cloning a voice for scalable production; Comparing voice synthesis platforms; Designing voice characteristics by description"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # AI Voice Design

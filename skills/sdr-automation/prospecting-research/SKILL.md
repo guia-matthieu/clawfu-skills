@@ -1,6 +1,11 @@
 ---
 name: prospecting-research
 description: Conduct deep account and contact research to personalize outreach and identify compelling angles for engagement
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Prospecting Research

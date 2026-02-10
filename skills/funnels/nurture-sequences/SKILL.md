@@ -1,6 +1,11 @@
 ---
 name: nurture-sequences
 description: "Transformez l'attention en conviction avec des séquences email evergreen qui font progresser les leads de curiosité → confiance → call booké, basé sur la méthodologie A5 du Marketing Swarm de Lasse Flagstad. Use when: **Créer une séquence evergreen** - Emails automatiques qui tournent indéfiniment; **Réactiver une liste froide** - Réveiller des leads dormants sans spam; **Structurer le nurturing post-lead-magnet** - Que se passe-t-il après l'opt-in?; **Définir les segments et triggers** - HOT..."
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Nurture Sequences

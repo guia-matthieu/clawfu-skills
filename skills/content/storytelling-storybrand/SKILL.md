@@ -1,6 +1,11 @@
 ---
 name: storytelling-storybrand
 description: "Master Donald Miller's 7-part StoryBrand framework from \"Building a StoryBrand\" (2017). Clarify your message so customers actually listen. Use when: Creating or refining website messaging; Writing brand narratives and marketing copy; Building sales scripts and pitches; Clarifying confusing product positioning; Creating marketing one-liners"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # StoryBrand Framework

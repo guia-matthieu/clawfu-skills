@@ -1,6 +1,11 @@
 ---
 name: crm-hygiene
 description: Audit and improve CRM data quality by identifying missing fields, inconsistent values, duplicate records, and stale data
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # CRM Hygiene

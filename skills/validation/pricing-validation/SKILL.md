@@ -1,6 +1,11 @@
 ---
 name: pricing-validation
 description: "Test willingness to pay before launching with proven pricing research methodologies. Combine Van Westendorp, Gabor-Granger, and behavioral techniques to find your optimal price point. Use when: **After solution validation** to test willingness to pay; **Before launch** to set initial pricing; **Pricing changes** to test new price points; **New segments** to understand price sensitivity by segment; **Competitive positioning** to price against alternatives"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Pricing Validation

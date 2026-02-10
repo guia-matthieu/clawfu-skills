@@ -1,6 +1,11 @@
 ---
 name: crisis-detector
 description: Identify early warning signals of potential PR crises through pattern recognition, escalation triggers, and risk assessment
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Crisis Detector

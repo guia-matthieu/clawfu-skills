@@ -1,6 +1,11 @@
 ---
 name: icp-matching
 description: Score and qualify prospects against your Ideal Customer Profile using firmographic, technographic, and behavioral criteria
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # ICP Matching

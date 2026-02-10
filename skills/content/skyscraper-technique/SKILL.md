@@ -1,6 +1,11 @@
 ---
 name: skyscraper-technique
 description: "Build high-quality backlinks systematically using Brian Dean's proven 3-step content marketing framework—find link-worthy content, make something 10x better, and reach out to the right people. Use when: **Build backlinks** to improve search rankings; **Create content** with pre-validated demand for links; **Outrank competitors** on specific topics; **Develop link-building campaigns** that actually work; **Promote new content** to relevant websites"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Skyscraper Technique

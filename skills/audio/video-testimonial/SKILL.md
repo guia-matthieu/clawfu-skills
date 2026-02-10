@@ -1,6 +1,11 @@
 ---
 name: video-testimonial
 description: "Capture authentic customer testimonials through guided self-recording workflows, from outreach and briefing to recording and publishing. Use when: Building social proof for marketing campaigns; Creating customer success stories; Gathering testimonials for website and ads; Producing case study videos; Collecting user-generated content"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Video Testimonial Collection

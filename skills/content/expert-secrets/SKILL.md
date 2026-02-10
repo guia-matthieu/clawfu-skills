@@ -1,6 +1,11 @@
 ---
 name: expert-secrets
 description: "Build a mass movement around your expertise using Russell Brunson's proven framework—position yourself as the charismatic leader, offer a new opportunity, and create a future-based cause that turns followers into paying customers. Use when: **Position yourself as an expert** in your field; **Create an online course or coaching program** based on your knowledge; **Build a tribe** of loyal followers around your message; **Design a webinar** that converts attendees into buyers; **Craft your orig..."
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Expert Secrets

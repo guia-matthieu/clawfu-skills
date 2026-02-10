@@ -1,6 +1,11 @@
 ---
 name: never-split-difference
 description: "Master FBI hostage negotiation techniques adapted for business. Apply Chris Voss' proven methods to close deals, handle objections, and negotiate from a position of strength. Use when: **High-stakes negotiations** where outcomes matter significantly; **Difficult conversations** with clients, vendors, or partners; **Price negotiations** when you need to hold firm; **Conflict resolution** between team members or stakeholders; **Sales objections** that standard techniques don't resolve"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Never Split the Difference

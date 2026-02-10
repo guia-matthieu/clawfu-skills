@@ -1,6 +1,11 @@
 ---
 name: sales-letter-writer
 description: "Write high-converting direct response sales letters using the proven methodologies of Gary Halbert (The Boron Letters) and Dan Kennedy (The Ultimate Sales Letter)—master the art of persuasive long-form copy that turns readers into buyers. Use when: **Write a long-form sales letter** for a product or service; **Create direct mail pieces** that generate response; **Write landing page copy** in sales letter format; **Craft email sequences** with direct response principles; **Develop VSL scripts*..."
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Sales Letter Writer

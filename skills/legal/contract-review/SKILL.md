@@ -1,6 +1,11 @@
 ---
 name: contract-review
 description: Analyze and red-flag contracts systematically, identifying risks, unfavorable terms, and negotiation opportunities
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Contract Review

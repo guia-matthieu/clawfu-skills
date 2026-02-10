@@ -1,6 +1,11 @@
 ---
 name: health-score-monitor
 description: Design and maintain customer health scoring systems with automated alerts and trending analysis
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Health Score Monitor

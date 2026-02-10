@@ -1,6 +1,11 @@
 ---
 name: made-to-stick
 description: "Make your messages unforgettable using the Heath brothers' SUCCESs framework Use when: **Crafting a core message** for a product, campaign, or company that needs to stick; **Presenting complex ideas** to audiences who may forget 90% of what you say; **Writing headlines, taglines, or slogans** that people remember and repeat; **Training or educating** when retention matters more than coverage; **Pitching investors or stakeholders** where one memorable idea beats ten forgettable ones"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Made to Stick - Creating Ideas That Last

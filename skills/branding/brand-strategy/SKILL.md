@@ -1,6 +1,11 @@
 ---
 name: brand-strategy
 description: "Create distinctive brands that customers choose because they believe there's no substitute, using Marty Neumeier's Brand Gap and Zag frameworks Use when: **Building a new brand** from scratch (startup, product, service); **Repositioning an existing brand** that's become commoditized; **Defining brand differentiation** when competitors all look the same; **Creating brand guidelines** for consistent execution; **Evaluating brand strength** through structured testing"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Brand Strategy - Build a Brand People Believe In

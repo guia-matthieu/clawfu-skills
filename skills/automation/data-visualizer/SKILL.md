@@ -1,6 +1,11 @@
 ---
 name: data-visualizer
 description: "Create marketing visualizations from data. Use when: creating charts for reports; visualizing campaign performance; generating dashboards; presenting data insights; exporting charts for presentations"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Data Visualizer

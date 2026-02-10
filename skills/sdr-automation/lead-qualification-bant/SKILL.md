@@ -1,6 +1,11 @@
 ---
 name: lead-qualification-bant
 description: Qualify leads using the BANT framework (Budget, Authority, Need, Timeline) with discovery questions and scoring criteria
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Lead Qualification: BANT

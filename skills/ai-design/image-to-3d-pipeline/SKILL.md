@@ -1,6 +1,11 @@
 ---
 name: image-to-3d-pipeline
 description: "Transformez une image 2D en modèle 3D animé prêt pour le web ou le jeu en moins de 30 minutes, en utilisant le workflow Dilum Sanjaya (Hunyuan3D + Mixamo). Use when: **Créer un personnage 3D pour un site web** - Mascotte, avatar, illustration interactive; **Prototyper un asset de jeu** - Character design, props, environnements; **Produire du contenu marketing 3D** - Produits rotatifs, personnages animés; **Convertir des illustrations existantes** - Logo, mascotte, character design → 3D; **Tes..."
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Image to 3D Pipeline

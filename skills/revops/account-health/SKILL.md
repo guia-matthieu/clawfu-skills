@@ -1,6 +1,11 @@
 ---
 name: account-health
 description: Assess customer account health using product usage, support sentiment, payment status, and relationship signals
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Account Health Scoring

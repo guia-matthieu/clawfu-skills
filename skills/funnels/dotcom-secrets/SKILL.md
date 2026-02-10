@@ -1,6 +1,11 @@
 ---
 name: dotcom-secrets
 description: "Build high-converting sales funnels using Russell Brunson's proven framework Use when: **Launching an online product** and need a complete funnel strategy; **Converting cold traffic** into paying customers systematically; **Increasing customer lifetime value** through value ladder design; **Writing sales pages, webinars, or email sequences** with proven scripts; **Reverse-engineering competitor funnels** to model what works"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # DotCom Secrets - Sales Funnel Mastery

@@ -1,6 +1,11 @@
 ---
 name: cognitive-biases
 description: "Apply Kahneman and Thaler's behavioral economics principles to marketing—understand how customers actually make decisions and design experiences that work with human psychology, not against it. Use when: **Improve conversion rates** by removing friction and applying behavioral nudges; **Design pricing pages** that guide customers toward optimal choices; **Write copy that resonates** with how people actually process information; **Create urgency and scarcity** that feels authentic, not manipul..."
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Cognitive Biases for Marketing

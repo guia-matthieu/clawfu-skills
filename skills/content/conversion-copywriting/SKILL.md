@@ -1,6 +1,11 @@
 ---
 name: conversion-copywriting
 description: "Write copy that gets a \"yes\" using Joanna Wiebe's research-first, Voice of Customer methodology Use when: **Writing landing pages, emails, or sales pages** that need measurable conversion results; **Starting a new copy project** and need a systematic process to follow; **Struggling with what to write** and staring at a blank page; **Wanting to prove ROI** to clients with data-backed decisions; **Improving existing copy** through validation and testing"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Conversion Copywriting - Data-Driven Copy That Converts

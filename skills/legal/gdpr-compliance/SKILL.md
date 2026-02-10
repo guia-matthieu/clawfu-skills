@@ -1,6 +1,11 @@
 ---
 name: gdpr-compliance
 description: Ensure GDPR compliance for marketing activities including consent management, data processing, privacy notices, and data subject rights
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # GDPR Compliance for Marketing

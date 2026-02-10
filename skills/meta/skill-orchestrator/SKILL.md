@@ -1,6 +1,11 @@
 ---
 name: skill-orchestrator
 description: "Route to the optimal sequence of skills for any marketing, product, or business challenge. Stop using one skill at a time—orchestrate intelligent workflows that compound results. Use when: **Starting a new project** to determine the optimal skill sequence; **Complex multi-faceted challenges** that require multiple frameworks; **Team alignment** to agree on a structured approach; **When overwhelmed by options** to cut through skill paralysis; **Teaching structured thinking** to show how framew..."
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Skill Orchestrator

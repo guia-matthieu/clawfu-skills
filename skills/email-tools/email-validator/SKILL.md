@@ -1,6 +1,11 @@
 ---
 name: email-validator
 description: "Validate and clean email lists. Use when: cleaning email lists before campaigns; validating signup emails; removing invalid addresses; checking for disposable emails; improving deliverability"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Email Validator

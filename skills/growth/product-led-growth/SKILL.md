@@ -1,6 +1,11 @@
 ---
 name: product-led-growth
 description: "Transform your go-to-market strategy using Wes Bush's PLG framework to make your product the primary driver of customer acquisition, activation, and retention Use when: **Launching a SaaS product** and deciding between free trial, freemium, or sales-led models; **Reducing customer acquisition costs** by letting the product do the selling; **Designing user onboarding** that drives users to value quickly; **Converting free users to paid** through product-qualified leads (PQLs); **Fighting churn..."
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Product-Led Growth - Build Products That Sell Themselves

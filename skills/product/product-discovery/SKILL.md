@@ -1,6 +1,11 @@
 ---
 name: product-discovery
 description: "Build products customers actually want. Apply Marty Cagan's Silicon Valley-tested framework to discover solutions that are valuable, usable, feasible, and viable. Use when: **New product development** when validating what to build; **Feature prioritization** to ensure you're solving real problems; **Pivot decisions** when current direction isn't working; **Team alignment** on what problems to solve; **Risk reduction** before committing development resources"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Product Discovery

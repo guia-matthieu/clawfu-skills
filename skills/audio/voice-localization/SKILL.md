@@ -1,6 +1,11 @@
 ---
 name: voice-localization
 description: "Scale your brand voice across multiple languages using AI voice synthesis, maintaining consistent character and quality for global content. Use when: Expanding video content to new language markets; Creating multilingual courses or training; Localizing ads and marketing videos; Dubbing existing content for international audiences; Building consistent global brand voice"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # AI Voice Localization

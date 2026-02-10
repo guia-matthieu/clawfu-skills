@@ -1,6 +1,11 @@
 ---
 name: content-strategy
 description: "Create a content engine that attracts, engages, and converts using Joe Pulizzi's Epic Content Marketing methodology Use when: **Starting a content marketing program** from scratch or revamping an existing one; **Building an audience** for your brand, product, or service; **Creating a content mission statement** to align your team; **Developing an editorial calendar** and content plan; **Choosing content types and channels** strategically"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Content Strategy - Build an Audience That Buys

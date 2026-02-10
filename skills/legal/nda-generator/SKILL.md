@@ -1,6 +1,11 @@
 ---
 name: nda-generator
 description: Create appropriate non-disclosure agreements for different business contexts with balanced terms and proper scope definitions
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # NDA Generator

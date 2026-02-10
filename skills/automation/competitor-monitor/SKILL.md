@@ -1,6 +1,11 @@
 ---
 name: competitor-monitor
 description: "Monitor competitor websites for changes. Use when: tracking competitor pricing changes; monitoring new features; watching for content updates; alerting on website changes; competitive intelligence"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Competitor Monitor

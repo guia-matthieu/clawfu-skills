@@ -1,6 +1,11 @@
 ---
 name: fundraising-narrative
 description: "Craft the story that makes investors say \"I want in.\" Master the narrative structure that Reid Hoffman, Sequoia, and top founders use to raise capital. Use when: **Preparing to fundraise** to develop your story before the deck; **Investor meetings** to structure conversations that convert; **Pitch practice** to refine your narrative arc; **Cold outreach** to write compelling investor emails; **Pivoting** to reframe your story after a change"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Fundraising Narrative

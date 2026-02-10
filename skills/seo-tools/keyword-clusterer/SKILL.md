@@ -1,6 +1,11 @@
 ---
 name: keyword-clusterer
 description: "Cluster keywords by semantic similarity and intent. Use when: organizing keyword research; creating content pillars; mapping keywords to pages; identifying content gaps; grouping search intent"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Keyword Clusterer

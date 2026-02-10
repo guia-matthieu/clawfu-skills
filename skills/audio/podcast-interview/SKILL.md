@@ -1,6 +1,11 @@
 ---
 name: podcast-interview
 description: "Master the art of podcast interviewing using NPR training methodology and Tim Ferriss's preparation techniques to extract compelling stories and insights from any guest. Use when: Preparing for a podcast interview with a guest; Designing questions that elicit stories, not soundbites; Struggling to get guests to open up authentically; Planning a new interview-format podcast; Improving your interviewing technique"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Podcast Interview Mastery

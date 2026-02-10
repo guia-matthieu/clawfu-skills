@@ -1,6 +1,11 @@
 ---
 name: category-design
 description: "Become the Category King by creating new markets instead of competing in existing ones Use when: **Launching a company or product** that doesn't fit cleanly into existing categories; **Stuck in commodity competition** where you're compared feature-to-feature with competitors; **Redefining your market position** when \"better\" isn't working as a strategy; **Planning a major market announcement** or product launch; **Escaping price pressure** by creating net new demand instead of fighting for ex..."
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Category Design - Create and Dominate New Markets

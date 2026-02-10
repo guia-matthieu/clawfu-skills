@@ -1,6 +1,11 @@
 ---
 name: growth-loops
 description: "Design and optimize self-reinforcing growth systems using Reforge methodology—shift from linear funnels to compounding loops where outputs become inputs for sustainable, defensible growth. Use when: **Analyze your current growth model** and identify if you have a loop or funnel; **Design a growth loop** for a new product or feature; **Diagnose why growth isn't compounding** despite acquisition efforts; **Identify the right loop type** for your business model; **Optimize loop velocity** to acc..."
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Growth Loops

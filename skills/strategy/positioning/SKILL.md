@@ -1,6 +1,11 @@
 ---
 name: positioning
 description: "Master product positioning using April Dunford's proven 5+1 framework from \"Obviously Awesome\". Transform how customers perceive your product by deliberately setting the right context. Use when: Launching a new product and need to define market position; Current positioning feels \"off\" - customers don't \"get it\"; Facing price resistance or wrong competitor comparisons; Pivoting product to new market or segment; Preparing sales pitch and need positioning foundation"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Positioning Expert (April Dunford Method)

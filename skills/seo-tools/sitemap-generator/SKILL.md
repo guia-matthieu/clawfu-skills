@@ -1,6 +1,11 @@
 ---
 name: sitemap-generator
 description: "Generate XML sitemaps for SEO. Use when: creating sitemap for new site; updating sitemap after changes; generating sitemap from URLs list; validating existing sitemap"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Sitemap Generator

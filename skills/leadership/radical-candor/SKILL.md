@@ -1,6 +1,11 @@
 ---
 name: radical-candor
 description: "Stop being a \"nice\" manager. Learn Kim Scott's framework for caring personally while challenging directly—the combination that builds trust and drives performance. Use when: **Giving feedback** (positive or constructive); **Building trust** with direct reports; **Performance conversations** that need to happen; **Team culture building** for high performance; **New manager development** learning to have hard conversations"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Radical Candor

@@ -1,6 +1,11 @@
 ---
 name: pydub-automation
 description: "Automate repetitive audio tasks with Python using PyDub for batch processing, format conversion, normalization, and content assembly. Use when: Processing large numbers of audio files consistently; Converting between audio formats at scale; Normalizing loudness across a batch of files; Assembling intros/outros automatically to episodes; Trimming silence or extracting segments programmatically"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # PyDub Audio Automation

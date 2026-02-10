@@ -1,6 +1,11 @@
 ---
-name: sales-pitch-dunford
+name: sales-narrative
 description: "Master April Dunford's 8-step sales narrative from \"Sales Pitch\" (2023). Transform your positioning into a compelling story that wins enterprise deals. Use when: Structuring B2B sales presentations and demos; Creating pitch decks for complex products; Training sales teams on narrative-driven selling; Converting positioning strategy into sales conversations; Winning against entrenched competitors"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Sales Pitch Dunford
@@ -675,7 +680,7 @@ Does [day/time] work?"
 ## Skill Metadata (Internal Use)
 
 ```yaml
-name: sales-pitch-dunford
+name: sales-narrative
 category: sales
 subcategory: pitching
 version: 1.0

@@ -1,6 +1,11 @@
 ---
 name: commission-intelligence
 description: Explain sales commission calculations, resolve discrepancies, and model compensation scenarios for quota planning
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Commission Intelligence

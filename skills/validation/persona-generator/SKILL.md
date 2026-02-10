@@ -1,6 +1,11 @@
 ---
 name: persona-generator
 description: "Create research-backed buyer personas that drive real marketing and product decisions. Combine Buyer Personas methodology with Jobs-to-be-Done to build profiles based on actual behavior, not demographics fiction. Use when: **Starting customer discovery** to define who you're validating with; **Marketing campaign planning** to target the right messages to right people; **Content strategy** to create content that resonates with specific audiences; **Product roadmap prioritization** to build fea..."
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Persona Generator

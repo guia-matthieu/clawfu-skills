@@ -1,6 +1,11 @@
 ---
 name: qbr-preparation
 description: Automate QBR preparation with account summaries, success metrics, challenges, and strategic recommendations
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # QBR Preparation

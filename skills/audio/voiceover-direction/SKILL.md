@@ -1,6 +1,11 @@
 ---
 name: voiceover-direction
 description: "Master the art of directing voice talent to deliver performances that match your brand vision, using Anne Ganguzza's storytelling approach and industry best practices. Use when: Hiring and briefing voiceover artists for a project; Giving direction during recording sessions; Writing scripts that are easy for talent to deliver; Matching voice characteristics to brand personality; Reviewing auditions and selecting the right talent"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Voiceover Direction

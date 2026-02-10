@@ -1,6 +1,11 @@
 ---
 name: ai-video-concept
 description: "Développez une idée créative et structurez un script vidéo optimisé pour la génération IA, en suivant la méthode des scènes de 8 secondes de PJ Ace. Use when: **Démarrer une publicité vidéo IA** - Transformer une idée brute en script structuré; **Créer du contenu vidéo pour les réseaux sociaux** - TikTok, Reels, YouTube Shorts; **Développer un concept de campagne** - Avant de passer au storyboard; **Pitcher une idée vidéo** - Présenter un concept à un client ou une équipe; **Adapter un messag..."
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # AI Video Concept

@@ -1,6 +1,11 @@
 ---
 name: deliverability-checker
 description: "Check email deliverability and DNS configuration. Use when: diagnosing email delivery issues; setting up new email domains; auditing email authentication; checking SPF/DKIM/DMARC; troubleshooting spam folder issues"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Email Deliverability Checker

@@ -1,6 +1,11 @@
 ---
 name: ad-spend-optimizer
 description: Optimize paid advertising budget allocation across channels using performance data, attribution models, and ROI analysis
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Ad Spend Optimizer

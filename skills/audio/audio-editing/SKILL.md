@@ -1,6 +1,11 @@
 ---
 name: audio-editing
 description: "Master the essential audio post-production techniques—normalization, compression, EQ, and noise reduction—using the correct processing order to achieve professional-quality audio. Use when: Editing podcast episodes or video soundtracks; Cleaning up recorded voiceovers; Improving audio quality for marketing content; Preparing audio files for distribution; Troubleshooting common audio issues"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Audio Editing Fundamentals

@@ -1,6 +1,11 @@
 ---
 name: pipeline-forecasting
 description: Generate predictive pipeline forecasts with confidence intervals and scenario modeling for revenue planning
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Pipeline Forecasting

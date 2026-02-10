@@ -1,6 +1,11 @@
 ---
 name: stp-framework
 description: Apply Segmentation, Targeting, and Positioning framework to identify market opportunities and craft differentiated positioning
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # STP Framework

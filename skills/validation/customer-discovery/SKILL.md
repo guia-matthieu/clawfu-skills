@@ -1,6 +1,11 @@
 ---
 name: customer-discovery
 description: "Systematically validate your business hypotheses before building anything. Master Steve Blank's Customer Development methodology that became the foundation of Lean Startup and YC's approach. Use when: **Starting a new venture** to avoid building something nobody wants; **Before writing a line of code** to validate problem-solution fit; **Pivoting decisions** to systematically test new directions; **Early-stage fundraising** to prove market validation; **Product roadmap planning** to prioritiz..."
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Customer Discovery

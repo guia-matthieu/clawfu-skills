@@ -1,6 +1,11 @@
 ---
 name: image-batch
 description: "Batch process images for marketing. Use when: resizing images for social media; compressing images for web; removing backgrounds; adding watermarks; converting formats to WebP; optimizing for Core Web Vitals"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Image Batch Processing

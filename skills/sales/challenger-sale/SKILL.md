@@ -1,6 +1,11 @@
 ---
 name: challenger-sale
 description: "Stop being a relationship builder. Learn the research-backed methodology that top performers use to teach, tailor, and take control of sales conversations. Use when: **Complex B2B sales** where buyers have done their research; **Commoditized markets** where differentiation is hard; **Sophisticated buyers** who know what they need (or think they do); **Large deals** requiring consensus among stakeholders; **Solution selling** that requires changing buyer thinking"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # The Challenger Sale

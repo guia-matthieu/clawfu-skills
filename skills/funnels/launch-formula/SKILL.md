@@ -1,6 +1,11 @@
 ---
 name: launch-formula
 description: "Turn your marketing into an event that makes people beg to buy before you even release the product Use when: **Launching a new product or course** and want to maximize first-day sales; **Building anticipation** for an upcoming offer instead of \"surprise\" launching; **Growing your email list** while simultaneously warming them up to buy; **Creating urgency without being sleazy** with legitimate scarcity; **Turning skeptics into buyers** through sequenced value delivery"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Product Launch Formula - Launch Event Mastery

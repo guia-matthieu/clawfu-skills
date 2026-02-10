@@ -1,6 +1,11 @@
 ---
 name: ai-storyboard-2x2
 description: "Créez des storyboards visuellement cohérents en utilisant la technique des 2x2 Grid Shots de PJ Ace, garantissant éclairage, personnages et décors uniformes entre les plans. Use when: **Après avoir finalisé un script vidéo** - Transformer le concept en visuels; **Besoin de cohérence visuelle** - Personnages et éclairage constants entre les plans; **Préparer des assets pour animation** - Frames prêtes pour Veo, Runway, Kling; **Présenter un storyboard client** - Visualisation avant production;..."
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # AI Storyboard 2x2

@@ -1,6 +1,11 @@
 ---
 name: influencer-finder
 description: "Find and analyze influencers for campaigns. Use when: researching potential influencer partners; analyzing influencer metrics; building influencer lists; evaluating engagement rates; planning influencer outreach"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Influencer Finder

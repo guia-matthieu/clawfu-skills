@@ -1,6 +1,11 @@
 ---
 name: social-listening
 description: Monitor social media and online mentions for brand sentiment, emerging issues, and conversation trends
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Social Listening

@@ -1,6 +1,11 @@
 ---
 name: sentiment-analyzer
 description: "Analyze sentiment in text using ML models. Use when: analyzing customer reviews; processing NPS feedback; monitoring brand mentions; evaluating campaign responses; categorizing support tickets"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Sentiment Analyzer

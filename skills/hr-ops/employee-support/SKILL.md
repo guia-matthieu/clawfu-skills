@@ -1,6 +1,11 @@
 ---
 name: employee-support
 description: Handle common employee questions and requests through structured FAQ systems, escalation paths, and self-service resources
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Employee Support

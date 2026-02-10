@@ -1,6 +1,11 @@
 ---
 name: ai-video-qa
 description: "Validez la qualité de vos vidéos IA avant publication avec une checklist complète couvrant technique, créatif, et positionnement marque. Use when: **Avant publication** - Dernière validation avant mise en ligne; **Revue client** - Préparer les points de feedback anticipés; **Itération qualité** - Identifier les problèmes à corriger; **Go/No-Go decision** - Décider si la vidéo est prête; **Post-mortem** - Analyser pourquoi une vidéo a (ou n'a pas) performé"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # AI Video QA

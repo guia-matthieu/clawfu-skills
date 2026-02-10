@@ -1,6 +1,11 @@
 ---
 name: second-order-thinking
 description: "Think beyond immediate consequences to understand the chain reactions of decisions. Master Howard Marks' investment framework for seeing what others miss. Use when: **Strategic decisions** where long-term consequences matter; **Policy/rule changes** that will trigger behavioral responses; **Competitive moves** to anticipate market reactions; **Product decisions** where user behavior may shift; **Investment analysis** to see past obvious conclusions"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Second-Order Thinking

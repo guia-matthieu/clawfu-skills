@@ -1,6 +1,11 @@
 ---
 name: deal-risk-scoring
 description: Assess deal health and identify at-risk opportunities using engagement signals, stakeholder mapping, and velocity analysis
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Deal Risk Scoring

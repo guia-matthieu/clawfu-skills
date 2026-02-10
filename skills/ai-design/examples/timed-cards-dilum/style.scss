@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500&display=swap");
+
+$primary-color: #ecad29;
+$text-color: #FFFFFFDD;
+
+body {
+  margin: 0;
+  background-color: #1a1a1a;
+  color: $text-color;
+  position: relative;
+  overflow: hidden;
+  font-family: "Inter", sans-serif;
+}
+
+.card {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 6px 6px 10px 2px rgba(0, 0, 0, 0.6);
+}
+
+#btn {
+  position: absolute;
+  top: 690px;
+  left: 16px;
+  z-index: 99;
+}
+
+.card-content {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: $text-color;
+  padding-left: 16px;
+}
+
+.content-place {
+  margin-top: 6px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.content-title-1,
+.content-title-2 {
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+}
+
+.content-start {
+  width: 30px;
+  height: 5px;
+  border-radius: 99px;
+  background-color: $text-color;
+}
+
+.details {
+  z-index: 22;
+  position: absolute;
+  top: 240px;
+  left: 60px;
+
+  .place-box {
+    height: 46px;
+    overflow: hidden;
+
+    .text {
+      padding-top: 16px;
+      font-size: 20px;
+
+      &:before {
+        top: 0;
+        left: 0;
+        position: absolute;
+        content: "";
+        width: 30px;
+        height: 4px;
+        border-radius: 99px;
+        background-color: white;
+      }
+    }
+  }
+
+  .title-1,
+  .title-2 {
+    font-weight: 600;
+    font-size: 72px;
+    font-family: "Oswald", sans-serif;
+  }
+
+  .title-box-1,
+  .title-box-2 {
+    margin-top: 2px;
+    height: 100px;
+    overflow: hidden;
+  }
+
+  > .desc {
+    margin-top: 16px;
+    width: 500px;
+  }
+
+  > .cta {
+    width: 500px;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+
+    > .bookmark {
+      border: none;
+      background-color: $primary-color;
+      width: 36px;
+      height: 36px;
+      border-radius: 99px;
+      color: white;
+      display: grid;
+      place-items: center;
+
+      svg {
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    > .discover {
+      border: 1px solid #ffffff;
+      background-color: transparent;
+      height: 36px;
+      border-radius: 99px;
+      color: #ffffff;
+      padding: 4px 24px;
+      font-size: 12px;
+      margin-left: 16px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 36px;
+  font-weight: 500;
+
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .svg-container {
+    width: 20px;
+    height: 20px;
+  }
+
+  > div {
+    display: inline-flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 14px;
+
+    &:first-child {
+      gap: 10px;
+    }
+
+    &:last-child {
+      gap: 24px;
+
+      > .active {
+        position: relative;
+
+        &:after {
+          bottom: -8px;
+          left: 0;
+          right: 0;
+          position: absolute;
+          content: "";
+          height: 3px;
+          border-radius: 99px;
+          background-color: $primary-color;
+        }
+      }
+    }
+  }
+}
+
+.indicator {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 5px;
+  z-index: 60;
+  background-color: $primary-color;
+}
+
+.pagination {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: inline-flex;
+
+  > .arrow {
+    z-index: 60;
+    width: 50px;
+    height: 50px;
+    border-radius: 999px;
+    border: 2px solid #ffffff55;
+    display: grid;
+    place-items: center;
+
+    &:nth-child(2) {
+      margin-left: 20px;
+    }
+
+    svg {
+      width: 24px;
+      height: 24px;
+      stroke-width: 2;
+      color: #ffffff99;
+    }
+  }
+
+  .progress-sub-container {
+    margin-left: 24px;
+    z-index: 60;
+    width: 500px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+
+    .progress-sub-background {
+      width: 500px;
+      height: 3px;
+      background-color: #ffffff33;
+
+      .progress-sub-foreground {
+        height: 3px;
+        background-color: $primary-color;
+      }
+    }
+  }
+
+  .slide-numbers {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    z-index: 60;
+    position: relative;
+
+    .item {
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      color: white;
+      top: 0;
+      left: 0;
+      display: grid;
+      place-items: center;
+      font-size: 32px;
+      font-weight: bold;
+    }
+  }
+}
+
+.cover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  z-index: 100;
+}

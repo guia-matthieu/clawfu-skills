@@ -1,6 +1,11 @@
 ---
 name: resume-screener
 description: Screen resumes efficiently against job requirements with structured scoring, red flag identification, and interview recommendations
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Resume Screener

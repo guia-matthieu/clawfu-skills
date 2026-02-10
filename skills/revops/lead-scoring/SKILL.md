@@ -1,6 +1,11 @@
 ---
 name: lead-scoring
 description: Build and apply lead scoring models combining firmographic fit, behavioral signals, and intent data for sales prioritization
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Lead Scoring

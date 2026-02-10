@@ -1,6 +1,11 @@
 ---
 name: pricing-strategy
 description: "Design products around price using Madhavan Ramanujam's \"Monetizing Innovation\" methodology—determine willingness to pay before you build, not after. Use when: **Set pricing for a new product** before or during development; **Validate willingness to pay** before investing in features; **Structure pricing tiers** (Good-Better-Best) for different segments; **Choose the right monetization model** (subscription, usage-based, freemium, etc.); **Diagnose why a product isn't monetizing** as expected"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Pricing Strategy

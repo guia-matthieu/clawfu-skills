@@ -1,6 +1,11 @@
 ---
 name: lead-qualification-meddic
 description: Qualify enterprise opportunities using MEDDIC/MEDDPICC framework for complex B2B sales cycles
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Lead Qualification: MEDDIC

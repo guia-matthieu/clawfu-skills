@@ -1,6 +1,11 @@
 ---
 name: revenue-attribution
 description: Analyze marketing and sales touchpoints to attribute revenue credit using multi-touch models and channel contribution analysis
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Revenue Attribution

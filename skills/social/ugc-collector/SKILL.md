@@ -1,6 +1,11 @@
 ---
 name: ugc-collector
 description: "Collect and organize user-generated content. Use when: gathering customer testimonials; collecting product photos; organizing social mentions; building UGC campaigns; managing brand mentions"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # UGC Collector

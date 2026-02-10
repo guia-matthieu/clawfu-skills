@@ -1,6 +1,11 @@
 ---
 name: funnel-analyzer
 description: "Analyze conversion funnels and identify drop-offs. Use when: analyzing checkout funnel; tracking signup flow; identifying conversion blockers; optimizing user journey; visualizing funnel performance"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Funnel Analyzer

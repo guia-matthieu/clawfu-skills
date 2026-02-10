@@ -1,6 +1,11 @@
 ---
 name: onboarding-guide
 description: Design comprehensive onboarding programs with milestone-based progression, resource organization, and success measurement
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Onboarding Guide

@@ -1,6 +1,11 @@
 ---
 name: podcast-production
 description: "Master Ira Glass's narrative storytelling methodology from This American Life to create podcasts that captivate listeners through the power of story. Use when: Creating a branded podcast or audio content series; Structuring episodes for maximum listener engagement; Transforming raw interviews into compelling narratives; Building thought leadership through audio storytelling; Planning podcast content that keeps audiences coming back"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Podcast Production (Ira Glass Method)

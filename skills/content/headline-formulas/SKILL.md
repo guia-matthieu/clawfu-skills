@@ -1,6 +1,11 @@
 ---
 name: headline-formulas
 description: "25+ proven headline formulas that stop the scroll, capture attention, and drive clicks. Templates and examples for every situation. Use when: Writing headlines for landing pages, ads, or articles; Creating email subject lines that get opens; Crafting social media hooks; A/B testing headline variations; Overcoming headline writer's block"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Headline Formulas

@@ -1,6 +1,11 @@
 ---
 name: audiobook-production
 description: "Master ACX-compliant audiobook production using Audible's technical standards and Richard Mayer's multimedia learning principles for engaging, professional audio. Use when: Producing an audiobook for Audible/ACX distribution; Creating audio versions of courses or written content; Setting up narration workflow for long-form content; Ensuring audio meets professional distribution standards; Self-producing an audiobook as an author"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Audiobook Production

@@ -1,6 +1,11 @@
 ---
 name: web-scraper
 description: "Extract structured data from websites. Use when: collecting competitor pricing; scraping product listings; extracting contact information; gathering research data; monitoring website changes"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Web Scraper

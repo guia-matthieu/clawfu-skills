@@ -1,6 +1,11 @@
 ---
 name: audio-logo-design
 description: "Create memorable sonic logos using design principles from Intel, Netflix, and McDonald's—crafting 2-5 second audio signatures that achieve instant brand recognition. Use when: Creating a sonic logo for a brand; Evaluating audio logo proposals from agencies; Understanding what makes sonic logos effective; Briefing sound designers on logo requirements; Analyzing competitor sonic logos"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Audio Logo Design

@@ -1,6 +1,11 @@
 ---
 name: brand-voice-learner
 description: Analyze existing brand content to extract voice patterns, create voice guidelines, and ensure consistent brand expression
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Brand Voice Learner

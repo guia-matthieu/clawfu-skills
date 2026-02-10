@@ -1,6 +1,11 @@
 ---
 name: eisenhower-matrix
 description: "\"What is important is seldom urgent and what is urgent is seldom important.\" Master Dwight D. Eisenhower's prioritization framework to focus on what truly matters. Use when: **Feeling overwhelmed** by too many tasks and not enough time; **Weekly planning** to set priorities for the week ahead; **Daily triage** when everything seems urgent; **Delegation decisions** to identify what others should handle; **Saying no** by recognizing tasks that shouldn't be done at all"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Eisenhower Matrix

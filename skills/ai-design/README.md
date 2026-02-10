@@ -15,10 +15,17 @@ Deep research disponible: `docs/research-ai-design-workflows-2026-01.md` (75+ so
 | Skill | Description | Status |
 |-------|-------------|--------|
 | `image-to-3d-pipeline/` | Hunyuan3D, Tripo, Meshy - 2D→3D en 30min | ✅ Ready |
-| `ai-ui-generation/` | Génération d'interfaces avec v0, Claude, Gemini | 📋 Planned |
+| `design-trends-2026/` | 10 graphic design trends 2026 (Kittl × Savee) — visual direction, AI prompts, mood boards | ✅ Ready |
+| `ai-ui-generation/` | Génération d'interfaces avec v0, Claude, Gemini, aura.build | 📋 Planned |
 | `vibe-coding-design/` | Approche itérative rapide (Karpathy/Levels style) | 📋 Planned |
 | `character-design-ai/` | Personnages et mascottes avec Character Sheet method | 📋 Planned |
 | `ai-asset-workflow/` | Meta-skill: pipeline complet concept → production | 📋 Planned |
+
+## Examples
+
+| Example | Description | Auteur |
+|---------|-------------|--------|
+| `examples/timed-cards-dilum/` | Cartes destinations tourisme avec auto-advance GSAP | [Dilum Sanjaya](https://codepen.io/dilums/pen/NWodZMd) |
 
 ## Outils Référencés
 
@@ -66,5 +73,5 @@ Deep research disponible: `docs/research-ai-design-workflows-2026-01.md` (75+ so
 ---
 
 *Catégorie créée: 2026-01-28*
-*Skills: 1/5 ready*
+*Skills: 2/6 ready*
 *Research: docs/research-ai-design-workflows-2026-01.md*

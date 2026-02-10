@@ -1,6 +1,11 @@
 ---
 name: churn-prediction
 description: Identify at-risk customers using behavioral signals, engagement patterns, and health indicators before they cancel
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Churn Prediction

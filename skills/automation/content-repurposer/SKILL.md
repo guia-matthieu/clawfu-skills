@@ -1,6 +1,11 @@
 ---
 name: content-repurposer
 description: "Transform long-form content into multiple short-form pieces. Use when: converting podcast to social posts; extracting Twitter threads from blog posts; pulling quotes from transcripts; creating content variants from single source"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Content Repurposer

@@ -1,6 +1,11 @@
 ---
 name: meddic-scorecard
 description: Create and maintain MEDDIC/MEDDPICC deal scorecards for pipeline hygiene, forecast accuracy, and deal coaching
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # MEDDIC Scorecard

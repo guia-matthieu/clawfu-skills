@@ -1,6 +1,11 @@
 ---
 name: link-checker
 description: "Find broken links on websites. Use when: auditing website for broken links; checking internal link structure; finding 404 errors; validating external links; pre-launch QA"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Link Checker

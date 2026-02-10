@@ -1,6 +1,11 @@
 ---
 name: social-analytics
 description: "Analyze social media profiles and engagement. Use when: auditing competitor social presence; calculating engagement rates; identifying top-performing content; tracking profile growth; benchmarking social metrics"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Social Analytics

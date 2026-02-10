@@ -1,6 +1,11 @@
 ---
 name: onboarding-orchestrator
 description: Design and execute customer onboarding playbooks with milestones, success metrics, and automated touchpoints
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Onboarding Orchestrator

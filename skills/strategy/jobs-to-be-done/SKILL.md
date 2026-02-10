@@ -1,6 +1,11 @@
 ---
 name: jobs-to-be-done
 description: "Understand why customers really buy by uncovering the \"job\" they're hiring your product to do Use when: **Understanding customer motivation** beyond demographics and feature requests; **Finding product-market fit** by identifying the real progress customers seek; **Discovering why customers switch** (or don't) between solutions; **Identifying true competition** that isn't obvious from industry categories; **Creating marketing messages** that resonate with real customer struggles"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Jobs to Be Done - Customer Motivation Framework

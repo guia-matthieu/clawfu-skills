@@ -1,6 +1,11 @@
 ---
 name: audience-research
 description: "Discover where your audience actually pays attention online using Rand Fishkin's behavioral intelligence methodology—beyond demographics to actionable media affinity data. Use when: **Find where to reach your audience** beyond Google and Facebook ads; **Discover podcasts, YouTube channels, and publications** your audience follows; **Identify influencers and accounts** with real audience overlap; **Plan PR and media outreach** with data-backed target lists; **Improve ad targeting** on YouTube,..."
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Audience Research

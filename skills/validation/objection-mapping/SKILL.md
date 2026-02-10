@@ -1,6 +1,11 @@
 ---
 name: objection-mapping
 description: "Anticipate and neutralize every reason customers say \"no\" before they say it. Combine Chris Voss's negotiation psychology with systematic sales methodology to turn objections into opportunities. Use when: **Before sales calls** to prepare responses to common pushback; **After losing deals** to document and learn from objections; **Product positioning** to address concerns in marketing copy; **Pricing conversations** to defend value against price resistance; **Team training** to create an obje..."
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Objection Mapping

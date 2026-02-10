@@ -1,6 +1,11 @@
 ---
 name: cta-writing
 description: "Master the art of calls-to-action that convert. Direct CTAs, transitional CTAs, button copy, and microcopy that turns readers into customers. Use when: Writing button text for landing pages and emails; Creating CTAs for different stages of awareness; Designing click-worthy microcopy; A/B testing CTA variations; Building email sequences with graduated CTAs"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # CTA Writing

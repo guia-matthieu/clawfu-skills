@@ -1,6 +1,11 @@
 ---
 name: ai-video-prompting
 description: "Générez des prompts optimisés pour chaque modèle de génération vidéo IA (Veo 3, Runway Gen-3, Kling 2.6, Pika), en exploitant leurs forces spécifiques. Use when: **Animer des frames de storyboard** - Transformer des images fixes en vidéo; **Choisir le bon modèle** - Sélectionner Veo, Runway, Kling ou Pika selon le besoin; **Optimiser la qualité de génération** - Prompts structurés pour meilleurs résultats; **Créer des transitions fluides** - Scene extension, first/last frame; **Utiliser le mo..."
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # AI Video Prompting

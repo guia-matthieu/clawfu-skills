@@ -1,6 +1,11 @@
 ---
 name: email-writing
 description: "Master email marketing from subject lines to sequences. Templates for welcome emails, nurture campaigns, sales emails, and newsletters that get opened, read, and clicked. Use when: Writing email subject lines that get opens; Creating welcome email sequences; Building nurture and sales sequences; Writing newsletters that engage; Re-engagement and win-back campaigns"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Email Writing

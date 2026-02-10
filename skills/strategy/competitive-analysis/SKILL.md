@@ -1,6 +1,11 @@
 ---
 name: competitive-analysis
 description: "Analyze your competitive landscape using Porter's Five Forces and modern frameworks—understand industry dynamics, identify strategic opportunities, and position your business for sustainable advantage. Use when: **Evaluate an industry** before entering or investing; **Understand competitive dynamics** in your market; **Identify strategic opportunities** based on industry structure; **Assess threats** from competitors, new entrants, or substitutes; **Develop positioning strategy** relative to ..."
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Competitive Analysis

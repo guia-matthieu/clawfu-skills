@@ -1,6 +1,11 @@
 ---
-name: sound-design-murch
+name: sound-design-film
 description: "Apply Walter Murch's legendary film sound principles to marketing video, creating emotionally resonant audio that audiences feel without consciously noticing. Use when: Designing sound for brand films and documentaries; Creating emotional impact in video ads; Layering music, effects, and voice effectively; Building immersive soundscapes for content; Elevating production value through audio"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Sound Design (Murch Method)
@@ -612,7 +617,7 @@ URGENCY / TENSION
 ## Skill Metadata (Internal Use)
 
 ```yaml
-name: sound-design-murch
+name: sound-design-film
 category: audio
 subcategory: sound-design
 version: 1.0

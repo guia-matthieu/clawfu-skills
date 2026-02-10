@@ -1,6 +1,11 @@
 ---
 name: signal-monitoring
 description: Track buying signals like funding announcements, job postings, tech changes, and company news to identify sales-ready prospects
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Signal Monitoring

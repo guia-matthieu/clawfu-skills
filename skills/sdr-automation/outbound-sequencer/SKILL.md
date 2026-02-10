@@ -1,6 +1,11 @@
 ---
 name: outbound-sequencer
 description: Design multi-touch outbound sequences with optimal timing, channel mix, and messaging progression for SDR campaigns
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Outbound Sequencer

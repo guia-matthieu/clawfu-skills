@@ -1,6 +1,11 @@
 ---
 name: permission-marketing
 description: "Build marketing that people actually want using Seth Godin's Permission Marketing methodology—earn attention instead of demanding it, turning strangers into friends and friends into customers. Use when: **Build an email list** that's engaged and valuable; **Design lead magnets** that earn real permission; **Create content strategy** based on earning attention; **Evaluate marketing tactics** for permission vs. interruption; **Improve email marketing** by increasing anticipation and relevance"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Permission Marketing

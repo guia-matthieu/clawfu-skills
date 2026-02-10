@@ -57,9 +57,17 @@ AI design tools have matured into production-ready workflows enabling rapid asse
 | Tool | Technology | Output Quality | Integration |
 |------|------------|----------------|-------------|
 | **v0.dev** (Vercel) | GPT-4 + shadcn/ui | Production-ready React | Direct to Next.js |
+| **aura.build** | Claude + custom | High-design components | Copy-paste React/HTML |
 | **Galileo AI** | Custom model | High-fidelity mockups | Figma export |
 | **Claude Artifacts** | Claude 3+ | Functional prototypes | Copy-paste |
 | **Gemini Pro** | Gemini 1.5 | Rapid iteration | Manual export |
+
+### aura.build Best Practices
+
+1. **Prompts descriptifs visuels**: Décrire l'effet souhaité (ex: "racing game card", "parallax hover", "3D tilt")
+2. **Références Awwwards**: Mentionner le style haut de gamme attendu
+3. **Destinations/contenus concrets**: Donner des exemples (Suisse, Monaco, Tokyo) pour ancrer le design
+4. **Sauvegarder les prompts**: L'historique aura.build ne persiste pas toujours - documenter les bons prompts
 
 ### v0.dev Best Practices
 
@@ -239,6 +247,7 @@ Delivery
 |----------|--------------|--------|
 | 2D → 3D conversion | Hunyuan3D | Tripo AI |
 | UI prototyping | v0.dev | Galileo AI |
+| High-design components | aura.build | v0.dev |
 | Character concepts | Midjourney v6 | Nano Banana |
 | Character rigging | Mixamo | Blender (manual) |
 | Motion/video | Runway Gen-3 | Kling |

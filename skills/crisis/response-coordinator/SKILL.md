@@ -1,6 +1,11 @@
 ---
 name: response-coordinator
 description: Coordinate crisis response through structured playbooks, communication templates, and team orchestration
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Crisis Response Coordinator

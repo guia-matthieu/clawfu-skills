@@ -1,6 +1,11 @@
 ---
 name: pre-mortem
 description: "Imagine your project has failed spectacularly—then work backward to identify why. Apply Gary Klein's \"prospective hindsight\" technique to catch failures before they happen. Use when: **Before launching** a product, campaign, or major initiative; **Before making** an important decision (hiring, investment, partnership); **Starting a project** to identify risks the team hasn't considered; **When overconfident** and everyone agrees the plan is great; **Before committing resources** to a signific..."
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Pre-Mortem

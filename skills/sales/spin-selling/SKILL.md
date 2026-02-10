@@ -1,6 +1,11 @@
 ---
 name: spin-selling
 description: "Master the consultative sales methodology trusted by enterprise sales teams worldwide. Use Neil Rackham's research-backed question sequence to uncover needs and close complex deals. Use when: **Complex B2B sales** with long sales cycles; **High-value deals** requiring multiple stakeholders; **Solution selling** where discovery is critical; **Enterprise sales** with sophisticated buyers; **Consultative positioning** to differentiate from competitors"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # SPIN Selling

@@ -1,6 +1,11 @@
 ---
 name: forecast-scenarios
 description: Model best-case, worst-case, and likely revenue scenarios with sensitivity analysis for strategic planning
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Forecast Scenario Modeling

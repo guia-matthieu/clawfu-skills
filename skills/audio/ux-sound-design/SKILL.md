@@ -1,6 +1,11 @@
 ---
 name: ux-sound-design
 description: "Create functional and emotionally resonant audio for digital products using Audio UX methodology—from notification sounds to complete sonic systems. Use when: Designing notification sounds for an app; Creating a complete audio system for a digital product; Adding audio feedback to UI interactions; Building accessible audio cues; Defining audio guidelines for product teams"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # UX Sound Design

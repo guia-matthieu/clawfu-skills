@@ -1,6 +1,11 @@
 ---
 name: engagement-analyzer
 description: Analyze employee engagement survey data to identify trends, prioritize actions, and design targeted interventions
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Engagement Analyzer

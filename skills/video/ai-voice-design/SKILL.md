@@ -1,6 +1,11 @@
 ---
 name: ai-voice-design
 description: "Concevez et générez des voix IA pour vos vidéos en utilisant ElevenLabs ou Qwen3-TTS, avec clonage vocal, design par description, et synchronisation lip-sync. Use when: **Créer une voix de marque** - Définir le ton vocal pour une campagne; **Cloner une voix existante** - Reproduire une voix avec autorisation; **Designer une voix originale** - Créer une voix à partir d'une description; **Multi-personnages** - Gérer plusieurs voix dans une même vidéo; **Lip-sync vidéo IA** - Synchroniser voix e..."
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # AI Voice Design

@@ -1,6 +1,11 @@
 ---
 name: seo-content-writer
 description: "Write search-optimized content that ranks on Google using proven frameworks from Ahrefs, Moz, and Google's E-E-A-T guidelines—create helpful, people-first content that satisfies both search engines and readers. Use when: **Write blog posts** optimized for search engines; **Create pillar content** for topical authority; **Optimize existing content** for better rankings; **Write product or service pages** that rank; **Create how-to guides** and tutorials"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # SEO Content Writer

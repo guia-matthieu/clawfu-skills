@@ -1,6 +1,11 @@
 ---
 name: landing-page-copy
 description: "Build high-converting landing pages with proven structure, persuasive sections, and best practices. From hero to footer—every element optimized. Use when: Writing landing pages from scratch; Improving existing underperforming pages; Creating templates for repeatable page types; Structuring lead gen, sales, or product pages; Reviewing pages for conversion optimization"
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Landing Page Copy

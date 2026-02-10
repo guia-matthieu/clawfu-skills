@@ -1,6 +1,11 @@
 ---
 name: terms-analyzer
 description: Analyze terms of service and privacy policies to identify concerning clauses, hidden permissions, and user rights implications
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Terms of Service Analyzer

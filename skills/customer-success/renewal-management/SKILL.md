@@ -1,6 +1,11 @@
 ---
 name: renewal-management
 description: Manage the customer renewal process with health-based playbooks, timeline tracking, and risk mitigation strategies
+license: MIT
+metadata:
+  author: ClawFu
+  version: 1.0.0
+  mcp-server: "@clawfu/mcp-skills"
 ---
 
 # Renewal Management
