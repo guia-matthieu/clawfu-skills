@@ -1,6 +1,6 @@
 ---
 name: forecast-scenarios
-description: Model best-case, worst-case, and likely revenue scenarios with sensitivity analysis for strategic planning
+description: "Model best-case, worst-case, and likely revenue scenarios with sensitivity analysis for strategic planning. Use when: building financial forecasts; presenting board scenarios; planning headcount around revenue uncertainty; modeling pricing changes impact; preparing investor updates with upside/downside ranges"
 license: MIT
 metadata:
   author: ClawFu
