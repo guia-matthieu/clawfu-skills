@@ -1,6 +1,6 @@
 # ClawFu Skills
 
-**159 expert marketing methodologies for AI.** Free. Open source. MIT licensed.
+**172 expert marketing methodologies for AI.** Free. Open source. MIT licensed.
 
 Dunford on positioning. Schwartz on copywriting. Cialdini on persuasion. Ogilvy on advertising. Hormozi on offers. Voss on negotiation. And 150+ more — encoded as structured AI instructions.
 
