@@ -1,12 +1,14 @@
 # ClawFu Skills
 
-**172 expert marketing methodologies for AI.** Free. Open source. MIT licensed.
+**175 expert marketing methodologies for AI agents.** Free. Open source. MIT licensed.
 
-Dunford on positioning. Schwartz on copywriting. Cialdini on persuasion. Ogilvy on advertising. Hormozi on offers. Voss on negotiation. And 150+ more — encoded as structured AI instructions.
+Dunford on positioning. Schwartz on copywriting. Cialdini on persuasion. Ogilvy on advertising. Hormozi on offers. Voss on negotiation. And 160+ more — encoded as structured, agent-readable instructions.
+
+Skills compound. Prompts don't.
 
 ## Install
 
-### Claude Desktop / Claude Code (MCP)
+### Claude Desktop / Claude Code / Copilot (MCP)
 
 ```bash
 npx @clawfu/mcp-skills
@@ -14,7 +16,7 @@ npx @clawfu/mcp-skills
 
 ### Cursor / Windsurf
 
-Add to your `.mcp.json`:
+Add to your MCP config:
 
 ```json
 {
@@ -27,98 +29,101 @@ Add to your `.mcp.json`:
 }
 ```
 
-### Git Clone
+### Clone as Claude Code skills directory
 
 ```bash
 git clone https://github.com/guia-matthieu/clawfu-skills.git
+# Then use --add-dir or copy to ~/.claude/skills/
 ```
 
-### Individual Skills
+### Browse & download individual skills
 
-Browse and download individual skills at [clawfu.com/skills](https://clawfu.com/skills/).
+[clawfu.com/skills](https://clawfu.com/skills/)
 
 ## Catalog
 
-159 skills across 28 categories:
+175 skills across 28 categories:
 
-| Category | Skills | Examples |
-|----------|--------|----------|
-| Content | 22 | copywriting (Schwartz), storytelling (StoryBrand), persuasion (Cialdini) |
-| Strategy | 17 | positioning (Dunford), competitive analysis, JTBD, six thinking hats |
-| Audio | 16 | podcast production, sonic branding, sound design |
-| Automation | 10 | workflow builder, zapier architect, n8n orchestrator |
-| Validation | 8 | mom test, customer discovery, landing page test |
-| RevOps | 8 | pipeline analyzer, forecast validator, pricing strategy |
-| Sales | 6 | sales pitch (Dunford), SPIN selling, MEDDIC, negotiation (Voss) |
-| SDR Automation | 6 | lead enrichment, outreach sequencer, ICP scoring |
-| Customer Success | 6 | health score, churn predictor, onboarding |
-| Video | 5 | AI storyboard, video concept, editing |
-| SEO Tools | 5 | keyword research, content optimization, technical audit |
-| Legal | 5 | contract review, GDPR compliance, terms generator |
-| HR-Ops | 5 | resume screener, onboarding guide, job description |
-| Social | 4 | community building, social listening, content calendar |
-| Growth | 4 | growth loops (Reforge), PLG, referral systems |
-| Crisis | 4 | crisis detector, response coordinator, post-mortem |
+| Category | Count | Highlights |
+|----------|-------|------------|
+| Content | 24 | copywriting (Schwartz), storytelling (StoryBrand), persuasion (Cialdini), SEO writing |
+| Strategy | 17 | positioning (Dunford), competitive analysis (Porter), JTBD, cognitive biases |
+| Audio | 16 | podcast production (Ira Glass), sonic branding, sound design (Murch) |
+| Automation | 10 | workflow builder, data visualizer, report generator |
+| SEO Tools | 8 | schema markup, lighthouse audit, link checker, keyword clustering |
+| RevOps | 8 | pipeline forecasting, forecast scenarios, revenue attribution |
+| Validation | 8 | mom test, customer discovery, lean canvas, pricing validation |
+| Sales | 6 | sales narrative (Dunford), SPIN selling, MEDDIC, negotiation (Voss) |
+| SDR Automation | 6 | lead enrichment, outbound sequencer, ICP scoring |
+| Customer Success | 6 | health score, churn predictor, onboarding orchestrator |
+| Video | 5 | AI storyboard, video concept, voice design, video QA |
+| AI Design | 5 | image-to-3D, web design director, minimalist image director |
+| HR-Ops | 5 | resume screener, onboarding guide, interview scheduler |
+| Social | 5 | social listening, sentiment analyzer, hashtag analyzer |
+| Legal | 5 | contract review, GDPR compliance, terms analyzer |
+| Branding | 4 | brand strategy (Neumeier), brand voice, naming |
+| Meta | 4 | skill orchestrator, RLM (large codebase), context engineering |
+| Crisis | 4 | crisis detector, response coordinator, reputation recovery |
+| Growth | 4 | growth loops (Reforge), PLG (Wes Bush), referral systems |
+| Thinking | 4 | first principles, inversion, pre-mortem, second-order thinking |
 | Analytics | 4 | A/B testing, cohort analysis, funnel analyzer |
-| Thinking | 3 | first principles, inversion, pre-mortem |
-| Startup | 3 | pitch deck, lean canvas, fundraising |
-| Product | 3 | PRD generator, feature prioritization, roadmap |
-| Leadership | 3 | meeting facilitator, decision framework, feedback |
-| Funnels | 3 | funnel architect, conversion optimizer, lead scoring |
-| Email | 2 | email sequence, newsletter strategy |
-| Branding | 2 | brand voice, visual identity |
-| Acquisition | 2 | ad spend optimizer, Google Ads expert |
-| Meta | 1 | skill orchestrator (multi-skill workflows) |
-| DevOps | 1 | CI/CD pipeline |
-| AI Design | 1 | image-to-3D pipeline |
+| Product | 3 | product discovery (Cagan), design sprint (GV), Shape Up |
+| Leadership | 3 | high-output management (Grove), radical candor, one-on-ones |
+| Funnels | 3 | DotCom Secrets (Brunson), launch formula, nurture sequences |
+| Startup | 3 | YC pitch deck, startup metrics, fundraising narrative |
+| Acquisition | 2 | ad spend optimizer, Google Ads (Perry Marshall) |
+| Email | 2 | email writing, deliverability checker |
+| DevOps | 1 | DNS zonefile config |
 
-## Skill Format
+## How it works
 
-Each skill is a `SKILL.md` file with YAML frontmatter:
+Each skill is a `SKILL.md` file following the [Agent Skills](https://agentskills.io) open standard:
 
-```markdown
+```yaml
 ---
-name: positioning-expert
-description: Apply April Dunford's positioning methodology
-mode: centaur
+name: positioning
+description: "Master product positioning using April Dunford's 5+1 framework. Use when: launching a new product; customers don't 'get it'; facing wrong competitor comparisons; pivoting to a new market"
 ---
-
-# Positioning Expert
-
-> Position products using April Dunford's "Obviously Awesome" framework.
-
-## When to Use This Skill
-...
-
-## What Claude Does vs What You Decide
-...
 ```
 
-### Quality Standards (v2)
+The description tells agents **when** to use the skill. The body provides the full methodology — frameworks, steps, examples, and output format.
 
-All skills include:
+Skills work across **Claude, ChatGPT, Copilot, Cursor, Windsurf** — any tool that supports the Agent Skills standard or MCP.
 
-- **Expert attribution** — named source methodology, not generic checklists
-- **"What Claude Does vs What You Decide"** — clear human/AI division
-- **"Skill Boundaries"** — known limitations and edge cases
-- **Mode tag** — `centaur` (divided work), `cyborg` (integrated), or `both`
+## Quality
 
-## Scripts
+All skills are reviewed against [Anthropic's skill authoring best practices](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices):
 
-```bash
-# Validate v2 compliance
-python scripts/validate_v2.py
+- **Expert attribution** — named source methodology (Dunford, Schwartz, Cialdini...), not generic checklists
+- **Agent-first descriptions** — "Use when:" trigger terms for reliable discovery
+- **Concise** — methodology only, no explanations Claude already knows
+- **Output contracts** — declared output format for composability between skills
 
-# Package skills
-python scripts/package_skills.py
-```
+Automated quality checks run on every PR via [Tessl Skill Review](https://github.com/tesslio/skill-review).
+
+## Security
+
+Skills are **context, not code**. They contain markdown instructions only — no executable scripts, no network calls, no file system access.
+
+- 100% open source and auditable
+- No community uploads or marketplace — curated library only
+- No hidden HTML, comments, or obfuscated content
+- MIT licensed
+
+## Contributing
+
+Found an issue? Want to improve a skill? PRs welcome.
+
+Quality bar: every modified `SKILL.md` is automatically reviewed by the Tessl GitHub Action. Aim for 80%+ score.
 
 ## License
 
 MIT — see [LICENSE](LICENSE).
 
-## Built by
+## Links
 
-[Guia](https://guia.fr) — AI visibility consulting.
+- [clawfu.com](https://clawfu.com) — browse and download skills
+- [@clawfu/mcp-skills](https://www.npmjs.com/package/@clawfu/mcp-skills) — npm package (MCP server)
+- [Guia](https://guia.fr) — AI systems consulting
 
-Browse all skills at [clawfu.com](https://clawfu.com).
+Built by [Matthieu Credou](https://credou.bzh) at [Guia](https://guia.fr).
