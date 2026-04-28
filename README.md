@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/guia-matthieu-clawfu-skills-badge.png)](https://mseep.ai/app/guia-matthieu-clawfu-skills)
+
 # ClawFu Skills
 
 **175 expert marketing methodologies for AI agents.** Free. Open source. MIT licensed.
