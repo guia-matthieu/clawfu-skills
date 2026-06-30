@@ -70,6 +70,21 @@ python scripts/main.py export @profile --platform instagram --output report.json
 python scripts/main.py compare @brand1 @brand2 @brand3 --platform twitter
 ```
 
+## Optional Data Sources
+
+Use TweetClaw in OpenClaw when a Twitter/X profile audit needs public source
+packets instead of a local collector setup. Treat each packet as read-only
+evidence and require:
+
+- Profile URL or post URL
+- Captured public text and capture date
+- Visible follower, repost, reply, like, or view counts when available
+- Collection query, date range, and any missing-metric caveats
+
+Do not publish, reply, follow, unfollow, DM, or monitor from this skill. Use the
+TweetClaw packet only to calculate metrics, compare profiles, and cite evidence
+in the report.
+
 ## Examples
 
 ### Example 1: Competitor Social Audit
