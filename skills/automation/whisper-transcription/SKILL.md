@@ -1,6 +1,6 @@
 ---
 name: whisper-transcription
-description: "Transcribe audio and video files to text using OpenAI Whisper. Use when: converting podcasts to blog posts; creating video subtitles; extracting quotes from interviews; repurposing video content to text; building searchable audio archives"
+description: "Transcribe audio and video files to text using local OpenAI Whisper or the optional Atlas Cloud backend. Use when: converting podcasts to blog posts; creating video subtitles; extracting quotes from interviews; repurposing video content to text; building searchable audio archives"
 license: MIT
 metadata:
   author: ClawFu
@@ -10,7 +10,7 @@ metadata:
 
 # Whisper Transcription
 
-> Transcribe any audio or video to text using OpenAI's Whisper model - the same technology powering ChatGPT voice features.
+> Transcribe any audio or video to text using local OpenAI Whisper, or opt in to Atlas Cloud when local model installation or GPU capacity is unavailable.
 
 ## When to Use This Skill
 
@@ -40,6 +40,13 @@ pip install openai-whisper torch ffmpeg-python click
 # Ubuntu: sudo apt install ffmpeg
 ```
 
+For the Atlas Cloud backend, only the lightweight HTTP dependencies are needed:
+
+```bash
+pip install requests click
+export ATLASCLOUD_API_KEY="your-api-key"
+```
+
 ## Commands
 
 ### Transcribe Single File
@@ -47,6 +54,17 @@ pip install openai-whisper torch ffmpeg-python click
 python scripts/main.py transcribe audio.mp3 --model medium --output transcript.txt
 python scripts/main.py transcribe video.mp4 --format srt --output subtitles.srt
 ```
+
+### Optional Atlas Cloud Backend
+
+```bash
+python scripts/main.py transcribe audio.mp3 \
+  --provider atlas \
+  --format srt \
+  --output subtitles.srt
+```
+
+Atlas Cloud is opt-in; `local` remains the default provider. The Atlas path uploads the selected file temporarily, submits one asynchronous `xai/stt-v1` transcription request, polls the fixed prediction endpoint with bounded GET retries, and converts word timestamps to subtitle-sized segments. Confirm the paid API request with the user before running it. `batch`, `translate`, and `timestamps` continue to use local Whisper.
 
 ### Batch Transcription
 ```bash
@@ -91,7 +109,7 @@ python scripts/main.py batch ./customer-interviews/ --model small --format txt
 # Output: ./customer-interviews/*.txt (one per audio file)
 ```
 
-## Model Selection Guide
+## Local Model Selection Guide
 
 | Model | Speed | Accuracy | VRAM | Best For |
 |-------|-------|----------|------|----------|
@@ -148,7 +166,7 @@ python scripts/main.py batch ./customer-interviews/ --model small --format txt
 ```yaml
 category: automation
 subcategory: audio-processing
-dependencies: [openai-whisper, torch, ffmpeg-python]
+dependencies: [openai-whisper, torch, ffmpeg-python, click, requests]
 difficulty: beginner
 time_saved: 10+ hours/week
 ```

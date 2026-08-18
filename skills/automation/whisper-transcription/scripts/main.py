@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Whisper Transcription - Audio/Video to Text using OpenAI Whisper.
+Whisper Transcription - Audio/Video to Text using local Whisper or Atlas Cloud.
 
 Usage:
     python main.py transcribe audio.mp3 --model medium
@@ -8,10 +8,11 @@ Usage:
     python main.py translate foreign.mp3 --to en
 """
 
-import click
+import json
 from pathlib import Path
 from typing import Optional
-import json
+
+import click
 
 
 def check_whisper():
@@ -25,6 +26,10 @@ def check_whisper():
 
 def get_model(model_name: str):
     """Load whisper model."""
+    if not check_whisper():
+        raise click.ClickException(
+            "openai-whisper is not installed. Run: pip install openai-whisper torch"
+        )
     import whisper
     click.echo(f"  Loading model '{model_name}'...")
     return whisper.load_model(model_name)
@@ -83,25 +88,33 @@ def write_txt(result: dict, output_path: Path, include_timestamps: bool = False)
 @click.group()
 def cli():
     """Whisper Transcription - Audio/Video to Text."""
-    if not check_whisper():
-        click.echo("Error: openai-whisper not installed")
-        click.echo("Run: pip install openai-whisper torch")
-        raise SystemExit(1)
 
 
 @cli.command()
 @click.argument('file', type=click.Path(exists=True))
+@click.option('--provider', default='local',
+              type=click.Choice(['local', 'atlas']),
+              help='Transcription backend. Default: local')
 @click.option('--model', '-m', default='small',
               type=click.Choice(['tiny', 'base', 'small', 'medium', 'large']),
-              help='Whisper model size')
+              help='Local Whisper model size')
 @click.option('--format', '-f', 'output_format', default='txt',
               type=click.Choice(['txt', 'srt', 'vtt', 'json', 'tsv']),
               help='Output format')
 @click.option('--output', '-o', type=click.Path(), help='Output file path')
-@click.option('--language', '-l', help='Source language (auto-detected if not specified)')
+@click.option(
+    '--language', '-l', help='Source language (auto-detected if not specified)'
+)
 @click.option('--timestamps', is_flag=True, help='Include timestamps in txt output')
-def transcribe(file: str, model: str, output_format: str, output: Optional[str],
-               language: Optional[str], timestamps: bool):
+def transcribe(
+    file: str,
+    provider: str,
+    model: str,
+    output_format: str,
+    output: Optional[str],
+    language: Optional[str],
+    timestamps: bool,
+):
     """Transcribe audio or video file to text."""
 
     input_path = Path(file)
@@ -109,19 +122,24 @@ def transcribe(file: str, model: str, output_format: str, output: Optional[str],
     click.echo("\n  Whisper Transcription")
     click.echo("  " + "=" * 40)
     click.echo(f"  Input: {input_path.name}")
-    click.echo(f"  Model: {model}")
+    click.echo(f"  Provider: {provider}")
+    click.echo(f"  Model: {'xai/stt-v1' if provider == 'atlas' else model}")
     click.echo(f"  Format: {output_format}")
-
-    # Load model
-    whisper_model = get_model(model)
 
     # Transcribe
     click.echo("  Transcribing...")
-    options = {}
-    if language:
-        options['language'] = language
-
-    result = whisper_model.transcribe(str(input_path), **options)
+    if provider == 'atlas':
+        try:
+            from atlas_client import transcribe_file
+            result = transcribe_file(input_path, language=language)
+        except Exception as exc:
+            raise click.ClickException(str(exc)) from exc
+    else:
+        whisper_model = get_model(model)
+        options = {}
+        if language:
+            options['language'] = language
+        result = whisper_model.transcribe(str(input_path), **options)
 
     # Determine output path
     if output:
@@ -227,7 +245,9 @@ def translate(file: str, target_lang: str, model: str, output: Optional[str]):
     click.echo("  Transcribing and translating...")
     result = whisper_model.transcribe(str(input_path), task='translate')
 
-    output_path = Path(output) if output else input_path.with_suffix(f'.{target_lang}.txt')
+    output_path = (
+        Path(output) if output else input_path.with_suffix(f'.{target_lang}.txt')
+    )
 
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write(result['text'])
